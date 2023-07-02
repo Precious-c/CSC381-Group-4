@@ -1,0 +1,99 @@
+body{
+	background: #d7dadf;
+	
+}
+*{
+	box-sizing: border-box;
+}
+
+/******************************
+Header
+*******************************/
+.header{
+	display: none;
+	height: 70px;
+    text-align: center;
+	justify-content: space-between;
+}
+
+header h1{
+	margin: 20px;
+	font-size: 2em;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header h2{
+	margin: 20px;
+	font-size: 1em;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/******************************
+Body
+*******************************/
+.form-body{
+	margin: 0 auto;
+	background: white;
+	width: 80%;
+	border-radius: 20px;
+	padding: 30px;
+	margin: 50px 50px 50px 85px;
+	box-shadow: ;
+}
+form{
+	display: flex;
+	flex-wrap: wrap;
+}
+.form-item{
+	margin-bottom: 20px;
+	width: 100%;
+}
+@media screen and (min-width: 481px) {
+	.form-item{
+		margin-bottom: 20px;
+		width: 50%;
+	}
+}
+@media screen and (min-width: 970px) {
+	.form-item{
+		margin-bottom: 20px;
+		width: 33.33%;
+	}
+}
+
+div > form label{
+	display: block;
+	width: 100%;
+	margin-right: 20px;
+}
+form input, select {
+	border-radius: 10px;
+	border-width: 1px;
+	padding-left: 10px;
+	width: 80%;
+	height: 25px;
+	border-color: #998483;
+	box-shadow: ;
+}
+
+@media screen and (min-width: 970px) {
+	
+}
+
+/******************************
+Footer
+*******************************/
+footer{
+	
+	height: 70px;
+    text-align: center;
+	margin-top: 80px;
+}
+ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	flex-;
+}
+/* ul li{
+	display: flex;
+} */
